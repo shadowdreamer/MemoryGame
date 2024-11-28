@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6696183044076470780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5320856088063684063}
+  - component: {fileID: 8549872237577630537}
+  m_Layer: 0
+  m_Name: AudioMan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5320856088063684063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6696183044076470780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 710.4005, y: 532.42896, z: -134.17842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8549872237577630537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6696183044076470780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576229f5e14f4974dbe40a446c176943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioManagerPrefab: {fileID: 6696183044076470780}
+  sounds:
+  - name: Start
+    clip: {fileID: 8300000, guid: 67c56103ecd67184cbff88a6977f5488, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: flip
+    clip: {fileID: 8300000, guid: a519e334508bc09479135af9a2c8b570, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: flap
+    clip: {fileID: 8300000, guid: 30bd932b400e82c46aee928898e7ed9f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: card-move
+    clip: {fileID: 8300000, guid: 22ce6d705ce5acb42a22853d35c27957, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: card-cast
+    clip: {fileID: 8300000, guid: 53d856adc5096c74898ae432b58ddfcc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: card-pia
+    clip: {fileID: 8300000, guid: 0381c6f192875684982fb4540677cd75, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: card-flip
+    clip: {fileID: 8300000, guid: 1b7630cf0a207894cb010754c88dfb67, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
